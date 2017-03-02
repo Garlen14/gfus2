@@ -1,10 +1,10 @@
 dao\PeopleDaoImpl.class
-controller\GreetingController.class
+core\Application.class
 service\PeopleService.class
+core\GreetingController.class
 core\People$PeopleBuilder.class
 core\DbService.class
 service\PeopleServiceImpl.class
-Application.class
 core\Greeting.class
 core\People.class
 dao\PeopleDao.class

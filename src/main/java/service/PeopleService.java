@@ -7,6 +7,7 @@ import java.util.List;
 /**
  * Created by Garlen on 25/02/2017.
  */
+
 public interface PeopleService {
     public void add(People student);
     public void edit(People student);
