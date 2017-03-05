@@ -1,10 +1,6 @@
-package core;
+package com.core;
 
-import org.hibernate.SessionFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.util.Collection;
 
 /**
  * Created by Garlen on 21/02/2017.

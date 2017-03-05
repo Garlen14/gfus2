@@ -1,8 +1,7 @@
-package core;
+package com.core;
 
 
 import lombok.Getter;
-import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * Created by Garlen on 19/02/2017.

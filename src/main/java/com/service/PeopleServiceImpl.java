@@ -1,7 +1,7 @@
-package service;
+package com.service;
 
-import core.People;
-import dao.PeopleDao;
+import com.core.People;
+import com.dao.PeopleDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 //import org.springframework.transaction.annotation.Transactional;

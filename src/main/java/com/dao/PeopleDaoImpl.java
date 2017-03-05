@@ -1,6 +1,6 @@
-package dao;
+package com.dao;
 
-import core.People;
+import com.core.People;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -29,7 +29,6 @@ public class PeopleDaoImpl implements PeopleDao {
     public void delete(int personID) {
         session.getCurrentSession().delete(getPerson(personID));
     }
-
 
     @Override
     public People getPerson(int personID) {

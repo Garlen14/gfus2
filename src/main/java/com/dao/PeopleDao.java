@@ -1,6 +1,6 @@
-package dao;
+package com.dao;
 
-import core.People;
+import com.core.People;
 
 import java.util.List;
 
