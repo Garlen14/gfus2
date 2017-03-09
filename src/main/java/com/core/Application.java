@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Created by Garlen on 19/02/2017.
  */
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.configuration"})
 public class Application {
 
 

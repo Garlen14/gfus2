@@ -1,5 +1,8 @@
 package com.configuration;
 
+import org.hibernate.SessionFactory;
+import org.hibernate.ejb.HibernateEntityManagerFactory;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
@@ -9,7 +12,11 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan(basePackages = {"com.core",
         "com.controller",
-        "com.service"})
+        "com.service",
+        "com.dao"})
 public class AppConfig {
+
+
+
 
 }

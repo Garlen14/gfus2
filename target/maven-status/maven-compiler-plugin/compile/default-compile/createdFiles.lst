@@ -1,3 +1,4 @@
+com\configuration\PersistenceJPAConfig.class
 com\configuration\AppConfig.class
 com\controller\GreetingController.class
 com\dao\PeopleDao.class
