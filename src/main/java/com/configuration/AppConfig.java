@@ -12,4 +12,6 @@ import org.springframework.context.annotation.Configuration;
         "com.service"})
 public class AppConfig {
 
+
+
 }

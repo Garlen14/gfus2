@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info">
+	<Properties>
+		<Property name="log-path">logs</Property>
+	</Properties>
+
+	<Appenders>
+		<RollingFile name="file-log" fileName="${log-path}/app.log" filePattern="${log-path}/app-%d{yyyy-MM-dd}.log">
+			<PatternLayout>
+				<pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n</pattern>
+			</PatternLayout>
+			<Policies>
+				<SizeBasedTriggeringPolicy size="10 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="1"/>
+		</RollingFile>
+		<Console name="console-log" target="SYSTEM_OUT">
+			<PatternLayout pattern="%m%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<Root level="trace">
+			<appender-ref ref="file-log" />
+			<appender-ref ref="console-log" />
+		</Root>
+	</Loggers>
+</Configuration>
